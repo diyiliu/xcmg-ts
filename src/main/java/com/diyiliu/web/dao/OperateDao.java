@@ -2,6 +2,7 @@ package com.diyiliu.web.dao;
 
 import com.diyiliu.support.task.CreateSpaceTask;
 import com.diyiliu.web.model.TableSpace;
+import org.springframework.cache.CacheManager;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
@@ -30,6 +31,9 @@ public class OperateDao {
 
     @Resource
     private Executor xcmgExecutor;
+
+    @Resource
+    private CacheManager cacheManager;
 
     public List<TableSpace> queryTableSpaces(String db) {
         List list = new ArrayList();
@@ -83,10 +87,11 @@ public class OperateDao {
      * @param list
      */
     public void checkSpace(List<TableSpace> list, String suffix, JdbcTemplate jdbcTemplate) {
+
         for (TableSpace ts : list) {
             int free = ts.getFreePerc().intValue();
 
-            if (free < 1) {
+            if (free < 0.5) {
                 CreateSpaceTask task = new CreateSpaceTask(jdbcTemplate, ts.getName(), suffix);
                 xcmgExecutor.execute(task);
             }

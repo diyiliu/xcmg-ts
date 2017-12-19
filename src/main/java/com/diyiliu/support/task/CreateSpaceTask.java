@@ -84,7 +84,7 @@ public class CreateSpaceTask implements Runnable {
                 "   AND a.tablespace_name = ?";
 
         double free = jdbcTemplate.queryForObject(sql, new Object[]{name}, Double.class);
-        if (free > 1.5) {
+        if (free > 0.6) {
 
             return true;
         }
