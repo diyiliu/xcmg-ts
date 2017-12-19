@@ -1,0 +1,17 @@
+# dev
+server:
+  port: 8080
+
+xcmg:
+ datasource:
+  names: sdb, cdb
+  sdb:
+    driver-class-name: 'oracle.jdbc.OracleDriver'
+    url: 'jdbc:oracle:thin:@192.168.1.156:1521/xgsid.xg156.com'
+    username: 'ESTAR'
+    password: 'ESTAR'
+  cdb:
+    driver-class-name: 'oracle.jdbc.OracleDriver'
+    url: 'jdbc:oracle:thin:@192.168.1.50:1521:xudb'
+    username: 'system'
+    password: 'sys'

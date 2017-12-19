@@ -1,0 +1,162 @@
+[INFO ] [2017-12-19 16:23:34] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 16000 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:23:34] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:23:34] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a94ee4: startup date [Tue Dec 19 16:23:34 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:23:34] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:23:37] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:23:37] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:23:37] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:23:37] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 3263 ms
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:23:37] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:23:38] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:23:38] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:26:07] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 18756 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:26:07] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:26:07] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:26:07 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:26:07] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:26:09] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:26:09] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:26:09] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:26:09] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:26:09] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2581 ms
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:26:10] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:26:10] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:28:39] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 4692 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:28:39] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:28:39] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a94ee4: startup date [Tue Dec 19 16:28:39 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:28:40] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:28:42] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:28:42] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:28:42] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:28:42] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2363 ms
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:28:42] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:28:42] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:29:16] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 20052 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:29:16] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:29:16] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a94ee4: startup date [Tue Dec 19 16:29:16 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:29:17] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:29:20] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:29:20] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:29:20] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:29:21] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:29:21] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 4039 ms
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:29:21] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:29:21] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:30:51] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 22136 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:30:51] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:30:52] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:30:52 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:30:52] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:30:54] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:30:54] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:30:54] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:30:54] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2657 ms
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:30:54] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:30:55] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:30:55] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:31:24] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 16808 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:31:24] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:31:24] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:31:24 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:31:24] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:31:27] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:31:27] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:31:27] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:31:27] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 3072 ms
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:31:27] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:31:28] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [165] - Initializing ExecutorService 
+[INFO ] [2017-12-19 16:31:28] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [165] - Initializing ExecutorService  'xcmgExecutor'
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:31:24 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.diyiliu.web.controller.OperateController.index()
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/list/{db}],methods=[GET]}" onto public java.util.List<com.diyiliu.web.model.TableSpace> com.diyiliu.web.controller.OperateController.spaceList(java.lang.String)
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:31:28] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:31:29] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[INFO ] [2017-12-19 16:31:29] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[INFO ] [2017-12-19 16:31:29] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:31:29] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:31:29] org.apache.coyote.http11.Http11NioProtocol [179] - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:31:29] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[INFO ] [2017-12-19 16:31:29] org.apache.catalina.util.LifecycleBase [179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] [2017-12-19 16:31:29] org.apache.coyote.http11.Http11NioProtocol [179] - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:31:29] org.apache.coyote.http11.Http11NioProtocol [179] - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:31:29] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[INFO ] [2017-12-19 16:31:29] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:31:24 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:31:29] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [449] - Unregistering JMX-exposed beans on shutdown
+[INFO ] [2017-12-19 16:31:29] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [202] - Shutting down ExecutorService 'xcmgExecutor'
+[INFO ] [2017-12-19 16:32:42] com.diyiliu.Application [48] - Starting Application on DESKTOP-8DQ1KVS with PID 22404 (E:\Develop\Workspaces\self\xcmg-ts\out\production\classes started by DIYILIU in E:\Develop\Workspaces\self\xcmg-ts)
+[INFO ] [2017-12-19 16:32:42] com.diyiliu.Application [597] - The following profiles are active: dev
+[INFO ] [2017-12-19 16:32:42] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:32:42 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:32:42] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.6.Final
+[INFO ] [2017-12-19 16:32:44] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] - Tomcat initialized with port(s): 8080 (http)
+[INFO ] [2017-12-19 16:32:44] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[INFO ] [2017-12-19 16:32:44] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+[INFO ] [2017-12-19 16:32:44] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[INFO ] [2017-12-19 16:32:44] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2461 ms
+[INFO ] [2017-12-19 16:32:45] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] [2017-12-19 16:32:45] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] [2017-12-19 16:32:45] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] [2017-12-19 16:32:45] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] [2017-12-19 16:32:45] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] [2017-12-19 16:32:45] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [165] - Initializing ExecutorService 
+[INFO ] [2017-12-19 16:32:45] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [165] - Initializing ExecutorService  'xcmgExecutor'
+[INFO ] [2017-12-19 16:32:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cc451f2: startup date [Tue Dec 19 16:32:42 CST 2017]; root of context hierarchy
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.diyiliu.web.controller.OperateController.index()
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/list/{db}],methods=[GET]}" onto public java.util.List<com.diyiliu.web.model.TableSpace> com.diyiliu.web.controller.OperateController.spaceList(java.lang.String)
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:32:46] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] [2017-12-19 16:32:46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[INFO ] [2017-12-19 16:32:46] org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor [267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[INFO ] [2017-12-19 16:32:46] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:32:46] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2017-12-19 16:32:46] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[INFO ] [2017-12-19 16:32:46] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [201] - Tomcat started on port(s): 8080 (http)
+[INFO ] [2017-12-19 16:32:46] com.diyiliu.Application [57] - Started Application in 5.752 seconds (JVM running for 7.609)
+[INFO ] [2017-12-19 16:32:56] com.diyiliu.support.config.QuartzConfiguration [40] - 刷新核心数据库表空间信息...
+[INFO ] [2017-12-19 16:33:06] com.diyiliu.support.config.QuartzConfiguration [31] - 刷新业务数据库表空间信息...

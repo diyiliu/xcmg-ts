@@ -1,0 +1,10 @@
+# 配置信息
+spring:
+  application:
+    name: xcmg-ts
+  profiles:
+    active: prod
+
+  cache:
+    ehcache:
+      config: 'classpath:config/ehcache.xml'

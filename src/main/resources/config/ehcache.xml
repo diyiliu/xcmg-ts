@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache name="ec" updateCheck="false">
+    <diskStore path="java.io.tmpdir"/>
+
+    <cache name="xcmg-tablespace"
+           maxEntriesLocalHeap="2000"
+           eternal="true"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+</ehcache>

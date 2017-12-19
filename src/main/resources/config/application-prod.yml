@@ -1,0 +1,17 @@
+# dev
+server:
+  port: 8088
+
+xcmg:
+ datasource:
+  names: sdb, cdb
+  sdb:
+    driver-class-name: 'oracle.jdbc.OracleDriver'
+    url: 'jdbc:oracle:thin:@10.1.128.245:1521:xzywdb'
+    username: 'system'
+    password: 'sys'
+  cdb:
+    driver-class-name: 'oracle.jdbc.OracleDriver'
+    url: 'jdbc:oracle:thin:@10.1.128.241:1521:xzordata'
+    username: 'system'
+    password: 'sys'
