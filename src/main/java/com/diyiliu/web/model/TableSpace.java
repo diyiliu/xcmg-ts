@@ -17,6 +17,9 @@ public class TableSpace {
     private Double usedPerc;
     private Double freePerc;
 
+    // 单位：G
+    private Double autoExtend;
+
     public String getName() {
         return name;
     }
@@ -63,5 +66,13 @@ public class TableSpace {
 
     public void setFreePerc(Double freePerc) {
         this.freePerc = freePerc;
+    }
+
+    public Double getAutoExtend() {
+        return autoExtend;
+    }
+
+    public void setAutoExtend(Double autoExtend) {
+        this.autoExtend = autoExtend;
     }
 }

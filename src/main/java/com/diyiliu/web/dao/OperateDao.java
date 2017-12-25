@@ -2,16 +2,18 @@ package com.diyiliu.web.dao;
 
 import com.diyiliu.support.task.CreateSpaceTask;
 import com.diyiliu.web.model.TableSpace;
-import org.springframework.cache.CacheManager;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.Executor;
 
 /**
@@ -32,9 +34,6 @@ public class OperateDao {
     @Resource
     private Executor xcmgExecutor;
 
-    @Resource
-    private CacheManager cacheManager;
-
     public List<TableSpace> queryTableSpaces(String db) {
         List list = new ArrayList();
 
@@ -51,6 +50,9 @@ public class OperateDao {
         if (jdbcTemplate == null || StringUtils.isEmpty(suffix)) {
             return list;
         }
+
+        // 可扩展容量
+        Map<String, Double> extendMap = checkExtend(jdbcTemplate);
 
         String sql = "SELECT a.tablespace_name name," +
                 "       a.bytes total," +
@@ -72,12 +74,39 @@ public class OperateDao {
 
             ts.setUsedPerc(new BigDecimal(rs.getDouble("usedp")).setScale(1, BigDecimal.ROUND_DOWN).doubleValue());
             ts.setFreePerc(new BigDecimal(rs.getDouble("freep")).setScale(1, BigDecimal.ROUND_DOWN).doubleValue());
+            ts.setAutoExtend(extendMap.get(ts.getName()));
+
             return ts;
         });
 
-        checkSpace(list, suffix, jdbcTemplate);
+        //checkSpace(list, suffix, jdbcTemplate);
 
         return list;
+    }
+
+
+    /**
+     * 可扩展容量
+     *
+     * @param jdbcTemplate
+     * @return
+     */
+    public Map checkExtend(JdbcTemplate jdbcTemplate) {
+        String sql = "SELECT (SUM(T.MAXBYTES)-SUM(T.USER_BYTES))/(1024*1024*1024) avail, T.TABLESPACE_NAME name" +
+                "  FROM DBA_DATA_FILES T" +
+                " WHERE T.AUTOEXTENSIBLE = 'YES'" +
+                " GROUP BY T.TABLESPACE_NAME";
+
+        Map map = new HashMap();
+        jdbcTemplate.query(sql, (ResultSet rs, int rowNum) -> {
+            double val = new BigDecimal(rs.getDouble("avail")).setScale(1, RoundingMode.DOWN).doubleValue();
+            String name = rs.getString("name");
+            map.put(name, val);
+
+            return null;
+        });
+
+        return map;
     }
 
     /**
