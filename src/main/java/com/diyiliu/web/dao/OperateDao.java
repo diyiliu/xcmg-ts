@@ -72,8 +72,8 @@ public class OperateDao {
             ts.setUsed(new BigDecimal(rs.getLong("used")).divide(new BigDecimal(1024 * 1024)).longValue());
             ts.setFree(new BigDecimal(rs.getLong("free")).divide(new BigDecimal(1024 * 1024)).longValue());
 
-            ts.setUsedPerc(new BigDecimal(rs.getDouble("usedp")).setScale(1, BigDecimal.ROUND_DOWN).doubleValue());
-            ts.setFreePerc(new BigDecimal(rs.getDouble("freep")).setScale(1, BigDecimal.ROUND_DOWN).doubleValue());
+            ts.setUsedPerc(new BigDecimal(rs.getDouble("usedp")).setScale(2, BigDecimal.ROUND_DOWN).doubleValue());
+            ts.setFreePerc(new BigDecimal(rs.getDouble("freep")).setScale(2, BigDecimal.ROUND_DOWN).doubleValue());
             ts.setAutoExtend(extendMap.get(ts.getName()));
 
             return ts;
@@ -99,7 +99,7 @@ public class OperateDao {
 
         Map map = new HashMap();
         jdbcTemplate.query(sql, (ResultSet rs, int rowNum) -> {
-            double val = new BigDecimal(rs.getDouble("avail")).setScale(1, RoundingMode.DOWN).doubleValue();
+            double val = new BigDecimal(rs.getDouble("avail")).setScale(0, RoundingMode.HALF_UP).doubleValue();
             String name = rs.getString("name");
             map.put(name, val);
 
