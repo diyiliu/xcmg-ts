@@ -25,7 +25,7 @@ public class QuartzConfiguration {
     private OperateDao operateDao;
 
 
-    @Scheduled(fixedDelay = 6 * 3600 * 1000, initialDelay = 20 * 1000)
+    @Scheduled(fixedDelay = 4 * 3600 * 1000, initialDelay = 20 * 1000)
     @CachePut(value = "xcmg-tablespace", key = "'sdb'")
     public List<TableSpace> refreshServiceTableSpace() {
         logger.info("刷新业务数据库表空间信息...");
@@ -33,7 +33,7 @@ public class QuartzConfiguration {
         return operateDao.queryTableSpaces("sdb");
     }
 
-    @Scheduled(fixedDelay = 12 * 3600 * 1000, initialDelay = 10 * 1000)
+    @Scheduled(fixedDelay = 6 * 3600 * 1000, initialDelay = 10 * 1000)
     @CachePut(value = "xcmg-tablespace", key = "'cdb'")
     public List<TableSpace> refreshCoreTableSpace() {
         logger.info("刷新核心数据库表空间信息...");

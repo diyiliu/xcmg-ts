@@ -30,6 +30,7 @@ public class CreateSpaceTask implements Runnable {
     public void run() {
         logger.info("添加[{}]表空间文件[-{}]...", spaceName, suffix);
 
+        int count = 0;
         // 业务数据库、核心数据库
         int no = suffix.contains("yw") ? 7 : 2;
         while (true) {
@@ -52,7 +53,7 @@ public class CreateSpaceTask implements Runnable {
                 break;
             }
 
-            if (isSafe(spaceName)) {
+            if (++count > 2 || isSafe(spaceName)) {
 
                 break;
             }
@@ -84,7 +85,7 @@ public class CreateSpaceTask implements Runnable {
                 "   AND a.tablespace_name = ?";
 
         double free = jdbcTemplate.queryForObject(sql, new Object[]{name}, Double.class);
-        if (free > 0.6) {
+        if (free > 0.3) {
 
             return true;
         }

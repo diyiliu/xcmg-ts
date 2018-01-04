@@ -79,7 +79,7 @@ public class OperateDao {
             return ts;
         });
 
-        //checkSpace(list, suffix, jdbcTemplate);
+        checkSpace(list, suffix, jdbcTemplate);
 
         return list;
     }
@@ -120,7 +120,8 @@ public class OperateDao {
         for (TableSpace ts : list) {
             int free = ts.getFreePerc().intValue();
 
-            if (free < 0.5) {
+            // 当前剩余空间[< 1%]和可扩展空间[< 10G]
+            if (free < 1 && ts.getAutoExtend() < 10) {
                 CreateSpaceTask task = new CreateSpaceTask(jdbcTemplate, ts.getName(), suffix);
                 xcmgExecutor.execute(task);
             }
